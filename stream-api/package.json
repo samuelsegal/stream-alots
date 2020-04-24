@@ -1,0 +1,15 @@
+{
+	"name": "stream-api",
+	"version": "1.0.0",
+	"description": "json-server",
+	"main": "index.js",
+	"scripts": {
+		"start": "json-server -p 3001 -w db.json"
+	},
+	"repository": "https://github.com/samuelsegal/stream-alots/tree/master/api",
+	"author": "samuelsegal",
+	"license": "MIT",
+	"dependencies": {
+		"json-server": "^0.16.1"
+	}
+}
